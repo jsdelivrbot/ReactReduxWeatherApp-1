@@ -6,9 +6,6 @@ export default class App extends Component {
     return (
       <div>
         <SearchBar />
-        <span className="input-group-btn">
-          <button type="submit" className="btn btn-secondary">Submit</button>
-        </span>
       </div>
     );
   }
